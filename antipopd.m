@@ -25,7 +25,7 @@ clang -framework AppKit -framework IOKit -arch i386 -arch x86_64 -o antipopd ant
 #define ANTIPOPD_CONFIG	"/usr/local/share/antipop/ac_only"
 #define BATTERY_STATE	CFSTR("State:/IOKit/PowerSources/InternalBattery-0")
 #define POWER_SOURCE	CFSTR("Power Source State")
-#define	INTERVAL	10 // seconds
+#define	INTERVAL	5 // seconds
 
 static BOOL runOnACOnly = NO;
 
