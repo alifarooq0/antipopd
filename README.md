@@ -27,7 +27,7 @@ Build
 
 `antipopd` can be built in a terminal using the following command:
 
-    clang -framework AppKit -framework IOKit -arch i386 -arch x86_64 -o antipopd antipopd.m
+    clang -framework AppKit -framework IOKit -o antipopd antipopd.m
 
 A built version (`i386` and `x86_64`) of `antipopd` is included in the repository.
 
